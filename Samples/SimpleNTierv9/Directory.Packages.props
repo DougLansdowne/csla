@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CslaVersion>9.0.0-rc4-gc005a93a3c</CslaVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Csla" Version="9.1.0" />
+    <PackageVersion Include="Csla.AspNetCore" Version="9.1.0" />
+    <PackageVersion Include="Csla.Windows.Forms" Version="$(CslaVersion)" />
+    <PackageVersion Include="Csla.Wpf" Version="$(CslaVersion)" />
+    <PackageVersion Include="Blend.Interctivity.WPF.v4.0" Version="1.0.3" />
+    <PackageVersion Include="BXF" Version="1.2.0.0" />
+    <PackageVersion Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+</Project>
